@@ -56,17 +56,22 @@ Follow these steps to set up and run the project on your PC:
     - Extract the dataset and place the `train` and `test` directories inside an `images` directory in the project root.
 
 4. **Train the Model:**
+    - If you have a low-end CPU and no GPU, set the number of epochs to 10 or less as training can be very resource-intensive.
+    - If you have a GPU, use it to train the model and set the number of epochs to 30 or higher to achieve maximum accuracy.
     - Run the `main.py` script to train the model.
     ```bash
     python main.py
     ```
     - The trained model and its architecture will be saved as `driver_model.h5` and `driver_model.json` respectively.
 
-5. **Test the Model:**
-    - You can test the trained model using some test images.
-    - Modify the testing section in `mainv2.py` with your test images and run it.
+5. **Pre-trained Model:**
+    - If you want to skip training, you can use the pre-trained model with 55% accuracy that I have uploaded.
 
-6. **Run the Real-time Emotion Recognition:**
+6. **Test the Model:**
+    - You can test the trained model using some test images.
+    - Modify the testing section in `main.py` with your test images and run it.
+
+7. **Run the Real-time Emotion Recognition:**
     - Run the `driver.py` script to start the webcam-based real-time emotion recognition.
     ```bash
     python driver.py
