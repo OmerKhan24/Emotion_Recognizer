@@ -58,7 +58,7 @@ Follow these steps to set up and run the project on your PC:
 4. **Train the Model:**
     - Run the `main.py` script to train the model.
     ```bash
-    python mainv2.py
+    python main.py
     ```
     - The trained model and its architecture will be saved as `driver_model.h5` and `driver_model.json` respectively.
 
