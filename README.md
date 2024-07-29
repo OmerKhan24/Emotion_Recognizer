@@ -62,16 +62,12 @@ Follow these steps to set up and run the project on your PC:
     ```bash
     python main.py
     ```
-    - The trained model and its architecture will be saved as `driver_model.h5` and `driver_model.json` respectively.
 
-5. **Pre-trained Model:**
-    - If you want to skip training, you can use the pre-trained model with 55% accuracy that I have uploaded.
-
-6. **Test the Model:**
+5. **Test the Model:**
     - You can test the trained model using some test images.
     - Modify the testing section in `main.py` with your test images and run it.
 
-7. **Run the Real-time Emotion Recognition:**
+6. **Run the Real-time Emotion Recognition:**
     - Run the `driver.py` script to start the webcam-based real-time emotion recognition.
     ```bash
     python driver.py
